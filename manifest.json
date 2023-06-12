@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Incorrect <head> tags",
+  "version": "1.0",
+  "description": "Obtiene el valor de la etiqueta <title> de la página actual",
+
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "browser_action": {
+    "default_title": "Detectar Etiquetas"
+  },
+
+  "icons": {
+    "16": "icon16.png",
+    "128": "icon128.png"
+  }
+}
